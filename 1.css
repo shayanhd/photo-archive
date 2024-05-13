@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-titel {
+    position: absolute;
+    top: 0;
+    right: 44%;
+    left: 44%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container div {
+    /* border: 2px solid red; */
+    /* border-radius: 10px; */
+    display: flex;
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+img {
+    border-radius: 20px;
+    /* -webkit-filter: blur(1.5px); */
+    opacity: 70%;
+}
+p {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+div p {
+   left: 12%;
+   right: 12%;
+   top: 40%;
+   bottom: 30%;
+}
+.text-container {
+    display: flex;
+   justify-content: space-around
+}
+
